@@ -1,0 +1,115 @@
+/* Main CSS Styles */
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #85DCFF;
+  background-image: linear-gradient(to bottom, #3498DB, #859FFF, #A885FF);
+  background-image: linear-gradient(to bottom, #85DCFF, #859FFF, #A885FF);
+  background-attachment: fixed;
+}
+
+main {
+  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 90%;
+  margin: 4em auto;
+  max-width: 40em;
+}
+
+.content {
+  padding: 1em 3em;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 3em;
+  font-weight: 100;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+.avatar {
+  width: 100%;
+  max-width: 15em;
+  border-radius: 50%;
+  margin: 1.5em auto;
+  display: block;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  margin: 1.5em auto;
+}
+
+li {
+  display: inline-block;
+}
+
+.biography li+li:before {
+  content: "| ";
+}
+
+.social-media .fa {
+  font-size: 2.5em;
+  height: 1.5em;
+  width: 1.5em;
+  line-height: 1.5em;
+  border-radius: 50%;
+  margin: 0.175em 0.175em;
+  background-color: #3498DB;
+}
+
+.social-media .fa, .social-media .fa:visited {
+  color: #ffffff;
+  color: rgba(255, 255, 255, 0.7);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-media .fa:hover, .social-media .fa:active {
+  color: #FFF;
+  -webkit-transform: scale(1.1) rotate(360deg);
+  -moz-transform: scale(1.1) rotate(360deg);
+  -ms-transform: scale(1.1) rotate(360deg);
+  -o-transform: scale(1.1) rotate(360deg);
+  transform: scale(1.1) rotate(360deg);
+}
+
+.social-media .fa-facebook {
+  background-color: #3b5998;
+}
+
+.social-media .fa-twitter {
+  background-color: #00b6f1;
+}
+
+.social-media .fa-linkedin {
+  background-color: #007bb6;
+}
+
+.social-media .fa-instagram {
+  background-color: #c32aa3;
+}
+
+.social-media .fa-wordpress {
+  background-color: #21759b;
+}
+
+.social-media .fa-flickr {
+  background-color: #f40083;
+}
+
+.social-media .fa-flickr:hover, .social-media .fa-flickr:active {
+  background-color: #006add;
+}
+
+.social-media .fa-envelope-o {
+  background-color: #a0a0a0;
+}
