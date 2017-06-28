@@ -2,9 +2,9 @@
 
 body {
   font-family: 'Lato', sans-serif;
-  background-color: #85DCFF;
-  background-image: linear-gradient(to bottom, #3498DB, #859FFF, #A885FF);
-  background-image: linear-gradient(to bottom, #85DCFF, #859FFF, #A885FF);
+  background-color: #85dcff;
+  /* background-image: linear-gradient(to bottom, #85dcff, #859fff, #a885ff, #e585ff, #ff85dc, #ff859f); */
+  background-image: linear-gradient(to bottom, #85dcff, #859fff, #a885ff);
   background-attachment: fixed;
 }
 
@@ -63,23 +63,8 @@ li {
   background-color: #3498DB;
 }
 
-.social-media .fa, .social-media .fa:visited {
+.social-media .fa {
   color: #ffffff;
-  color: rgba(255, 255, 255, 0.7);
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-.social-media .fa:hover, .social-media .fa:active {
-  color: #FFF;
-  -webkit-transform: scale(1.1) rotate(360deg);
-  -moz-transform: scale(1.1) rotate(360deg);
-  -ms-transform: scale(1.1) rotate(360deg);
-  -o-transform: scale(1.1) rotate(360deg);
-  transform: scale(1.1) rotate(360deg);
 }
 
 .social-media .fa-facebook {
@@ -112,4 +97,13 @@ li {
 
 .social-media .fa-envelope-o {
   background-color: #a0a0a0;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  main {
+    margin: 1em auto;
+  }
+  .content {
+    padding: 1em;
+  }
 }
